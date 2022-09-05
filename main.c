@@ -15,7 +15,7 @@ int main()
 
     FILE *fptr; // file pointer
 
-    fptr = fopen("test.txt", "r"); // open file in read mode
+    fptr = fopen("inputFile.txt", "r"); // open file in read mode
 
     while (fscanf(fptr, "%d", &initial) != EOF) // read file until end of file
     {
